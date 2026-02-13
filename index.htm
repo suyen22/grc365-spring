@@ -2,63 +2,76 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>The Importance of Beaches</title>
-	<!-- Embedded or Global Style Sheet -->
-	<link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+<title>Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 <style>
-	@font-face: Georgia
-	src:url (Georgia.tiff);
-	body {
-		background: whitesmoke;
-	} #page {
-		width: 1024p;
-		height: 1348px;
-		background:white; 
-		border: 1px solid darkgray;
-		box-shadow: 2px 3px 6px darkgray; 
-		margin: 0 auto; 
-	}#banner {
-	   width: 100%; 
-	} h1 { 
-		text-align: center; 
-		font-family: 'Gravitas'; font-size: 48pt;
-		text-shadow: 2px 3px 3px blue
-	} p {
-		font; 48pt/1.4em 'Gravitas', script; 
-		font: 14pt/1.4em Georgia; 
-		width: 768px ;
-		margin: 12px auto;
-		///text-indent: 36pt; 
-		color:darkblue
-	}   .text-img { 
-		width: 384px; 
-		float: left;
-		margin: 0 24px 12px 0; 
-		border: 1px solid darkgray;
-		box-shadow: 2px 3px 6px darkgray;			
-	}	.drop-cap {
-		font-size:5em;
-		float:left 
-		line-height:1.0em; 
-		margin-bottom: 0 0 -6px 0;
+* {
+	margin:0;
+	padding:0;
+	} 
+	@font-face {
+	font-family: Bungee;
+	src: url("Bungee_Inline,Chela_One,Gravitas_One/Bungee_Inline/BungeeInline-Regular.ttf");
+	} 
+	h1
+	{
+	font:48pt/1.4em Bungee;
+	text-align: center; 
+	color: red
+	text-shadow: 5px 5x 15px rgba(0,176,173,1.00);
+		margin: 24px 0; } 
+	#textbox {
+		width: 1024px;
+		height: 928px;
+		margin: 0 auto;
+		background:whitesmoke; 
+		box-shadow: 2px 30x 6px gainsboro;
+		border: 1px solid gainsboro; display: flex;
+		justify-content: center
+	} figure {
+		margin: 24px;
+	}   img, .zoom {
+		width: 200px;
+		height: 275px;
+		border: 1px solid gray;
+		box-shadow: 2px 3px 6px gray;
+		transition: transforms 0.5s; 
+	} figcaption{
+		font: 14pt/1.4em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		margin-top: 3px;
+		
+	} .zoom {
+		background:url("port1.png");
 	}
-
+		
 	}
-</style> 
-</head>
-
-<body>
-	<div id="page"> 
-	<img
-	src="beach.webp" 
-	width="450" 
-	height="500" id= "banner" /> 
+	</style>
 	
-    <h1>The Importance of Beaches</h1> 
-<p><img class= "text-img" src= "beach2.avif" /> 
-	<span class="drop-cap">T</span>he beach is a dynamic natural environment where land and sea meet, shaped continuously by wind, waves, and tides. Sandy shores, rocky coastlines, and dunes form ecosystems that support a wide range of plant and animal life, from shorebirds and crustaceans to salt-tolerant grasses. Beyond its ecological role, the beach acts as a natural barrier, absorbing wave energy and helping to protect inland areas from erosion and storms.</p>
-<p>As climate change and rising sea levels threaten coastal regions, the preservation and responsible management of beaches have become increasingly critical.Beyond their environmental function, beaches hold strong social, cultural, and economic importance. They are popular destinations for recreation and tourism, offering spaces for swimming, fishing, sports, and relaxation, which contribute significantly to local and national economies. Beaches have also influenced human culture for centuries, inspiring art, literature, and traditions tied to coastal life. However, modern challenges such as pollution, overdevelopment, and climate change pose serious threats to these fragile environments. Rising sea levels and increased storm activity are accelerating coastal erosion, making conservation and sustainable management of beaches more important than ever. Protecting beaches ensures that they continue to provide ecological balance, economic benefits, and natural beauty for future generations.</p>
+	</head>
+	
+	<body>
+		<h1> My Portfolio</h1>
+	<div id= "textbox">
+		<!--Leaves photo-->
+		<figure>
+		<a href="../../../FALL 2025/GRC 316/greyscale/colorfin.png">
+		<img src="port1.png" alt="project 1">
+			</a>
+		<figcaption> This project explores lighting and mood.</figcaption>
+		</figure>
+		<figure>
+		<a href="../../../FALL 2025/GRC 320/magfinal.png">
+		<img src="port2.png" alt="project 1">
+			</a>
+		<figcaption> This project explores dramatic imagery.</figcaption>
+		</figure>
+		<figure>
+		<a href="../ASS 2/book coverFINAL2 copy.png">
+		<img src="port3.png" alt="project 1">
+			</a>
+		<figcaption> This project covers changing stands of beauty</figcaption>
+		</figure>
 		
 	</div>
-</body>
-</html>
+	</body>
+	</html>
